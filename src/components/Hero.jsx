@@ -1,9 +1,8 @@
 import React from 'react';
-import backgroundImage from '../assets/images/Tarjeta_Male.PNG';
 
 function Hero() {
   return (
-    <section id="hero" className="d-flex align-items-center text-center bg-cover" style={{ backgroundImage: `url(${backgroundImage})`, minHeight: '67vh', backgroundSize: 'contain', backgroundColor: '#F9F3E2' }}>
+    <section id="hero" className="d-flex align-items-center text-center bg-cover" style={{ minHeight: '67vh', backgroundSize: 'contain', backgroundColor: '#F9F3E2' }}>
       <div className="container text-white">
         <h1 className="display-4 fw-bold" style={{ color: '#225759' }}>We take care of your home and your pet as if they were our own</h1>
         <p className="lead my-4" style={{ color: '#F68529' }}>Professional cleaning and pet care services in your city</p>

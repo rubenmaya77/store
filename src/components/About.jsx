@@ -1,4 +1,5 @@
 import React from 'react';
+import teamImage from '../assets/images/Tarjeta_Male.PNG';
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
         <h2 className="text-center mb-4">About Us</h2>
         <div className="row align-items-center">
           <div className="col-md-6">
-            <img src="https://via.placeholder.com/500x300?text=Our+Team" alt="Our Team" className="img-fluid rounded shadow" />
+            <img src={teamImage} alt="Our Team" className="img-fluid rounded shadow" />
           </div>
           <div className="col-md-6">
             <p className="lead">
