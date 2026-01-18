@@ -18,8 +18,8 @@ function Footer() {
             <FaWhatsapp size={24} />
           </a>
         </div>
-        <p className="mb-0">© {currentYear} Limpieza & Cuidado de Mascotas – Todos los derechos reservados.</p>
-        <p className="mb-0">Diseñado con ❤️ por tu agente de IA.</p>
+        <p className="mb-0">© {currentYear} Cleaning & Pet Care – All rights reserved.</p>
+        <p className="mb-0">Designed with ❤️ by your AI agent.</p>
       </div>
     </footer>
   );

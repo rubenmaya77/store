@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#hero">🐾 Limpieza & Cuidado de Mascotas</a>
+        <a className="navbar-brand" href="#hero">🐾 Cleaning & Pet Care</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,22 +19,22 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#about">Sobre Nosotros</a>
+              <a className="nav-link" href="#about">About Us</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#services">Servicios</a>
+              <a className="nav-link" href="#services">Services</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#process">Cómo Trabajamos</a>
+              <a className="nav-link" href="#process">How We Work</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#testimonials">Testimonios</a>
+              <a className="nav-link" href="#testimonials">Testimonials</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#gallery">Galería</a>
+              <a className="nav-link" href="#gallery">Gallery</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">Contacto</a>
+              <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>

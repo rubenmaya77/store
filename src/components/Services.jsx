@@ -3,28 +3,28 @@ import { FaSoap, FaHome, FaBuilding, FaToiletPaper, FaHardHat, FaBriefcase, FaDo
 
 function Services() {
   const cleaningServices = [
-    { name: 'Limpieza de casas', icon: <FaHome size={30} />, description: 'Servicio completo de limpieza para tu hogar.' },
-    { name: 'Limpieza de departamentos', icon: <FaBuilding size={30} />, description: 'Mantenemos tu departamento impecable.' },
-    { name: 'Limpieza profunda', icon: <FaSoap size={30} />, description: 'Eliminamos la suciedad más incrustada.' },
-    { name: 'Limpieza post-obra', icon: <FaHardHat size={30} />, description: 'Dejamos tu espacio listo para habitar después de reformas.' },
-    { name: 'Limpieza de oficinas pequeñas', icon: <FaBriefcase size={30} />, description: 'Ambientes de trabajo limpios y productivos.' },
+    { name: 'House cleaning', icon: <FaHome size={30} />, description: 'Complete cleaning service for your home.' },
+    { name: 'Apartment cleaning', icon: <FaBuilding size={30} />, description: 'We keep your apartment impeccable.' },
+    { name: 'Deep cleaning', icon: <FaSoap size={30} />, description: 'We remove the most ingrained dirt.' },
+    { name: 'Post-construction cleaning', icon: <FaHardHat size={30} />, description: 'We leave your space ready to inhabit after renovations.' },
+    { name: 'Small office cleaning', icon: <FaBriefcase size={30} />, description: 'Clean and productive work environments.' },
   ];
 
   const petCareServices = [
-    { name: 'Paseo de perros', icon: <FaWalking size={30} />, description: 'Paseos seguros y divertidos para tu mejor amigo.' },
-    { name: 'Cuidado de mascotas en casa', icon: <FaHome size={30} />, description: 'Tu mascota cuidada en la comodidad de su hogar.' },
-    { name: 'Visitas diarias para alimentar', icon: <FaPaw size={30} />, description: 'Nos aseguramos de que no les falte nada.' },
-    { name: 'Baño y aseo básico', icon: <FaShower size={30} />, description: 'Mantenemos a tu mascota limpia y feliz.' },
-    { name: 'Cuidado mientras el dueño viaja', icon: <FaPlane size={30} />, description: 'Tranquilidad total cuando estás fuera.' },
+    { name: 'Dog walking', icon: <FaWalking size={30} />, description: 'Safe and fun walks for your best friend.' },
+    { name: 'Pet care at home', icon: <FaHome size={30} />, description: 'Your pet cared for in the comfort of your home.' },
+    { name: 'Daily visits to feed', icon: <FaPaw size={30} />, description: "We make sure they don't lack anything." },
+    { name: 'Basic bath and grooming', icon: <FaShower size={30} />, description: 'We keep your pet clean and happy.' },
+    { name: 'Care while the owner travels', icon: <FaPlane size={30} />, description: "Total peace of mind when you're away." },
   ];
 
   return (
     <section id="services" className="py-5 bg-light">
       <div className="container">
-        <h2 className="text-center mb-5">Nuestros Servicios</h2>
+        <h2 className="text-center mb-5">Our Services</h2>
 
         {/* Cleaning Services */}
-        <h3 className="text-center mb-4">🧹 Servicios de Limpieza</h3>
+        <h3 className="text-center mb-4">🧹 Cleaning Services</h3>
         <div className="row g-4 mb-5">
           {cleaningServices.map((service, index) => (
             <div key={index} className="col-md-4 col-lg-3">
@@ -33,7 +33,7 @@ function Services() {
                   <div className="mb-3 text-primary">{service.icon}</div>
                   <h5 className="card-title">{service.name}</h5>
                   <p className="card-text">{service.description}</p>
-                  <button className="btn btn-outline-primary mt-3">Solicitar</button>
+                  <button className="btn btn-outline-primary mt-3">Request</button>
                 </div>
               </div>
             </div>
@@ -41,9 +41,9 @@ function Services() {
         </div>
 
         {/* Pet Care Services */}
-        <h3 className="text-center mb-4">🐶 Cuidado de Mascotas</h3>
+        <h3 className="text-center mb-4">🐶 Pet Care</h3>
         <p className="text-center lead mb-4">
-          Cuidamos a tu mascota mientras trabajas o viajas. Amor, seguridad y atención garantizados.
+          We take care of your pet while you work or travel. Love, safety and attention guaranteed.
         </p>
         <div className="row g-4 justify-content-center">
           {petCareServices.map((service, index) => (
@@ -53,7 +53,7 @@ function Services() {
                   <div className="mb-3 text-success">{service.icon}</div>
                   <h5 className="card-title">{service.name}</h5>
                   <p className="card-text">{service.description}</p>
-                  <button className="btn btn-outline-success mt-3">Solicitar</button>
+                  <button className="btn btn-outline-success mt-3">Request</button>
                 </div>
               </div>
             </div>

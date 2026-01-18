@@ -16,3 +16,7 @@ body {
 .vh-100 {
   min-height: 100vh;
 }
+
+.btn-separation-33 {
+  margin-right: 2rem !important;
+}

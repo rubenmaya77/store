@@ -4,24 +4,24 @@ function About() {
   return (
     <section id="about" className="py-5">
       <div className="container">
-        <h2 className="text-center mb-4">Sobre Nosotros</h2>
+        <h2 className="text-center mb-4">About Us</h2>
         <div className="row align-items-center">
           <div className="col-md-6">
-            <img src="https://via.placeholder.com/500x300?text=Foto+del+Equipo" alt="Nuestro Equipo" className="img-fluid rounded shadow" />
+            <img src="https://via.placeholder.com/500x300?text=Our+Team" alt="Our Team" className="img-fluid rounded shadow" />
           </div>
           <div className="col-md-6">
             <p className="lead">
-              Somos un equipo apasionado por el bienestar de tu hogar y tus mascotas. Con años de experiencia en servicios de limpieza y cuidado animal, nos dedicamos a ofrecer soluciones confiables, seguras y responsables.
+              We are a team passionate about the well-being of your home and your pets. With years of experience in cleaning and animal care services, we are dedicated to offering reliable, safe, and responsible solutions.
             </p>
             <p>
-              Nuestra misión es: <strong>"Brindar servicios confiables, seguros y responsables para hogares y mascotas."</strong>
+              Our mission is: <strong>"To provide reliable, safe, and responsible services for homes and pets."</strong>
             </p>
-            <h4 className="mt-4">Nuestros Valores:</h4>
+            <h4 className="mt-4">Our Values:</h4>
             <ul className="list-unstyled">
-              <li><i className="bi bi-check-circle-fill text-primary me-2"></i>Responsabilidad</li>
-              <li><i className="bi bi-heart-fill text-danger me-2"></i>Amor por los animales</li>
-              <li><i className="bi bi-clock-fill text-info me-2"></i>Puntualidad</li>
-              <li><i className="bi bi-shield-fill-check text-success me-2"></i>Honestidad</li>
+              <li><i className="bi bi-check-circle-fill text-primary me-2"></i>Responsibility</li>
+              <li><i className="bi bi-heart-fill text-danger me-2"></i>Love for animals</li>
+              <li><i className="bi bi-clock-fill text-info me-2"></i>Punctuality</li>
+              <li><i className="bi bi-shield-fill-check text-success me-2"></i>Honesty</li>
             </ul>
           </div>
         </div>

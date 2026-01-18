@@ -3,23 +3,23 @@ import React from 'react';
 function Testimonials() {
   const testimonials = [
     {
-      quote: "Excelente servicio, dejaron mi casa impecable y cuidaron muy bien a mi perro. ¡Súper recomendados!",
-      author: "Ana Pérez",
+      quote: "Excellent service, they left my house impeccable and took great care of my dog. Highly recommended!",
+      author: "Ana Perez",
       city: "Madrid"
     },
     {
-      quote: "Mi gato es muy especial y siempre está nervioso con gente nueva, pero con ellos estuvo tranquilo y bien cuidado. La limpieza del hogar también fue perfecta.",
-      author: "Carlos Gómez",
+      quote: "My cat is very special and is always nervous with new people, but with them he was calm and well cared for. The house cleaning was also perfect.",
+      author: "Carlos Gomez",
       city: "Barcelona"
     },
     {
-      quote: "Necesitaba una limpieza profunda urgente y se adaptaron a mis horarios. Profesionales y eficientes. ¡Mi casa brilla!",
-      author: "Laura Fernández",
+      quote: "I needed an urgent deep cleaning and they adapted to my schedule. Professional and efficient. My house shines!",
+      author: "Laura Fernandez",
       city: "Valencia"
     },
     {
-        quote: "Dejamos a nuestro perrito durante el viaje y nos enviaron fotos diarias. Nos dio mucha tranquilidad. El servicio de limpieza también fue impecable antes de regresar.",
-        author: "Marta y Pablo Sánchez",
+        quote: "We left our puppy during the trip and they sent us daily photos. It gave us a lot of peace of mind. The cleaning service was also impeccable before returning.",
+        author: "Marta and Pablo Sanchez",
         city: "Sevilla"
     }
   ];
@@ -27,7 +27,7 @@ function Testimonials() {
   return (
     <section id="testimonials" className="py-5 bg-light">
       <div className="container">
-        <h2 className="text-center mb-5">Testimonios</h2>
+        <h2 className="text-center mb-5">Testimonials</h2>
         <div className="row g-4">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="col-md-6 col-lg-3">
@@ -35,7 +35,7 @@ function Testimonials() {
                 <div className="card-body d-flex flex-column">
                   <p className="card-text flex-grow-1">"{testimonial.quote}"</p>
                   <footer className="blockquote-footer mt-auto">
-                    {testimonial.author} en <cite title="Source Title">{testimonial.city}</cite>
+                    {testimonial.author} in <cite title="City">{testimonial.city}</cite>
                   </footer>
                 </div>
               </div>
